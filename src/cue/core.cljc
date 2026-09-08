@@ -12,7 +12,7 @@
      {:host \"localhost\" :port 8080 :tags [\"a\" \"b\"]
       :server {:timeout 30 :tls true}
       :#Person {:name :string :age :int}}"
-  (:require [clojure.string :as str]))
+  (:require [kotoba.lang.text :as str]))
 
 (defn- pad [n] (apply str (repeat n "  ")))
 

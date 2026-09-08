@@ -3,7 +3,7 @@
    bare-identifier values (keyword → type, e.g. :int), and #Definition keys. cue vet validates the same
    output for real in `bb gate`."
   (:require [clojure.test :refer [deftest is]]
-            [clojure.string :as str]
+            [kotoba.lang.text :as str]
             [cue.core :as c]))
 
 (deftest values
