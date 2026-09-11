@@ -1,7 +1,7 @@
 (ns cue.core-test
   "Golden tests for kotoba.cue — the CUE hiccup. They pin string/number/bool/list values, nested structs,
    bare-identifier values (keyword → type, e.g. :int), and #Definition keys. cue vet validates the same
-   output for real in `bb gate`."
+   output for real in `kbb -M:gate`."
   (:require [clojure.test :refer [deftest is]]
             [kotoba.lang.text :as str]
             [cue.core :as c]))

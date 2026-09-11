@@ -7,5 +7,5 @@ The implementation lives in `cue.core`; `kotoba.cue` is provided as a compatibil
 ## Test
 
 ```sh
-clojure -M:test
+kbb -M:test
 ```
